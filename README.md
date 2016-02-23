@@ -48,10 +48,3 @@ Change to:
 		}	
 
 To uninstall delete the plugin files.
-
-This code might eat all your data or nuke your server. Use at your own risk.
-
-License
-----------------------
-
-[WTFPL](http://www.wtfpl.net)
