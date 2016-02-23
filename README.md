@@ -1,5 +1,5 @@
-DynamicCss plugin 0.1.1
-=======================
+DynamicCss plugin
+=================
 
 A (very) small CSS preprocessor. It implements SCSS style variables for your css file(s).
 

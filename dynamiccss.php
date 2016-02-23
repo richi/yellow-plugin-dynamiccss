@@ -4,7 +4,7 @@
 
 class YellowDynamicCss
 {
-	const Version = "0.1.1";
+	const Version = "0.1.2";
 	var $yellow;
 
 	function onLoad($yellow)
@@ -60,7 +60,7 @@ class YellowDynamicCss
 
 	function parseFile($fileName)
 	{
-		$data = $this->yellow->toolbox->getFileData($fileName);
+		$data = $this->yellow->toolbox->readFile($fileName);
 
 		$varDefPattern = '/\$([\w\-]+)\s*:(.*?);/';
 		preg_match_all($varDefPattern, $data, $matches);	
